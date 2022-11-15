@@ -26,7 +26,7 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 900px) and (max-width: 980px) {
     .img1 {
         width: 14.4rem;
         height: 14.6rem;
@@ -42,7 +42,24 @@
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 980px) {
+
+@media screen and (min-width:600px) and (max-width: 680px) {
+    .img1 {
+        width: 14.4rem;
+        height: 14.6rem;
+    }
+
+    .metabnb-card {
+        padding: 15px;
+        width: 230px;
+    }
+
+    .metabnb-card_flex {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
     .img1 {
         width: 14.4rem;
         height: 14.6rem;

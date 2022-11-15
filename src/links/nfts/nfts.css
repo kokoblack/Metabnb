@@ -50,10 +50,6 @@
     background-color: #fff;
 }
 
-.setting {
-    /* transform: rotate(90deg); */
-}
-
 .metabnb-nfts_container2 {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +97,12 @@
     .nft-button2 {
         margin-left: auto;
         border-radius: 8px;
+        width: 9rem;
     }
 
     .nft-button1 {
-        border-radius: 8px 8px 0 0;
+        border-radius: 8px;
+        width: 9rem;
     }
 }
 
@@ -113,12 +111,53 @@
 .metabnb-nfts_dropmenu {
     background-color: #fff;
     position: absolute;
-    top: 9.2rem;
+    top: 10.6rem;
     z-index: 2;
     margin-left: 3rem;
-    width: 8.2rem;
+    width: 8.1rem;
     padding: 0 0 0 1rem;
     /* backdrop-filter: blur(5px); */
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px grey;
+}
+
+@media screen and (max-width: 599px) {
+    .metabnb-nfts_show {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .metabnb-nfts_dropmenu {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .metabnb-nfts_dropmenu {
+       width: 6rem; 
+       font-size: .8rem;
+       top: 9.4rem;
+    }
+
+    .metabnb-nfts_show button {
+        width: 7rem;
+        font-size: .8rem;
+        padding: 2px 5px 2px 5px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .metabnb-nfts_dropmenu {
+       width: 5.6rem; 
+       font-size: .7rem;
+       top: 9.2rem;
+       padding: 0 0 0 0.5rem;
+    }
+
+    .metabnb-nfts_show button {
+        width: 6rem;
+        font-size: .7rem;
+        padding: 1px 5px 1px 5px;
+        text-align: center;
+    }
 }

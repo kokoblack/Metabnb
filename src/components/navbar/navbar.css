@@ -76,15 +76,15 @@
 
 @media screen and (max-width: 809px) {
     .metabnb-navbar_img img {
-        width: 150px;
+        width: 160px;
         height: 30px;
     }
 
     .metabnb-navbar_btn button {
-        font-size: 0.9rem;
-        padding: 10px 10px 10px 10px;
+        font-size: .9rem;
+        padding: 15px 12px 15px 12px;
         border-radius: 5px;
-        margin-left: 25vw;
+        margin-left: 20vw;
     }
 
     .metabnb-navbar_menu {
@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 618px) {
     .metabnb-navbar {
         padding: 0 1rem 0 1rem;
     }
@@ -121,7 +121,7 @@
 
     .metabnb-navbar_btn button {
         font-size: 0.7rem;
-        padding: 6px 8px 6px 8px;
+        padding: 10px 8px 10px 8px;
         border-radius: 5px;
         margin-left: 22vw;
     }
@@ -135,15 +135,15 @@
 
 @media screen and (max-width: 360px) {
     .metabnb-navbar_img img {
-        width: 90px;
-        height: 15px;
+        width: 97px;
+        height: 17px;
     }
 
     .metabnb-navbar_btn button {
-        font-size: 0.5rem;
-        padding: 6px 8px 6px 8px;
+        font-size: 0.6rem;
+        padding: 10px 8px 10px 8px;
         border-radius: 5px;
-        margin-left: 15vw;
+        margin-left: 11vw;
     }
 }
 

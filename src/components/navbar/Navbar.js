@@ -19,9 +19,9 @@ const Navbar = () => {
       </div>
       <div className='metabnb-navbar_link'>
         <Link to='/'>Home</Link>
-        <Link to='/pts'>Place To Stay</Link>
+        <Link>Place To Stay</Link>
         <Link to='/nfts'>NFTs</Link>
-        <Link to='/community'>Community</Link>
+        <Link>Community</Link>
       </div>
       <div className='metabnb-navbar_btn '>
         <button onClick={() => setWallet(true)}>Connect wallet</button>
@@ -34,9 +34,9 @@ const Navbar = () => {
           <div className='br'>
             <div className='metabnb-navbar_menu-link'>
               <Link to='/'>Home</Link>
-              <Link to='/pts'>Place To Stay</Link>
+              <Link>Place To Stay</Link>
               <Link to='/nfts'>NFTs</Link>
-              <Link to='/community'>Community</Link>
+              <Link>Community</Link>
             </div>
           </div>)}
       </div>

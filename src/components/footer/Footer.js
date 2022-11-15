@@ -37,7 +37,7 @@ function Footer() {
           <p>Contact us</p>
         </div>
       </div>
-      <p className='metabnb-footer_cr'> 2022 Metabnb</p>
+      <p className='metabnb-footer_cr'> © 2022 Metabnb</p>
     </div>
   )
 }
